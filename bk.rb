@@ -8,7 +8,7 @@ class Bk < Formula
   sha256 "fd98d21bce1ae8d47bec7b27337ecfb7f7829f99cd155fb532167b53df5e1816"
 
   def install
-    prefix.mv "bk-darwin-amd64-$VERSION_NUMBER" "bk"
+    mv prefix/"bk-darwin-amd64-0.2.0", "bk"
     bin.install "bk"
   end
 
