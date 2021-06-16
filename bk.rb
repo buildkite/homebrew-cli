@@ -3,12 +3,12 @@
 class Bk < Formula
   homepage "https://github.com/buildkite/cli"
   desc "A command line interface for Buildkite."
-  url "https://github.com/buildkite/cli/releases/download/v1.1.0/bk-darwin-amd64-1.1.0"
-  version "v1.1.0"
-  sha256 "580e595c67be43d95ecfd4525c0d0070ea85e8d288370af56ae6d3163c5164f3"
+  url "https://github.com/buildkite/cli/releases/download/v1.2.0/cli-darwin-amd64"
+  version "v1.2.0"
+  sha256 "943b1b47b27102746c0c9a2cb77990da628624869a8357687ff0a2c6f7349190"
 
   def install
-    mv "bk-darwin-amd64-1.1.0", "bk"
+    mv "cli-darwin-amd64", "bk"
     bin.install "bk"
   end
 
