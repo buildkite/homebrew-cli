@@ -1,8 +1,10 @@
 # homebrew-cli
 
-Allows you to install [bk](https://github.com/buildkite/cli) (the Buildkite command line interface) via [Homebrew](https://brew.sh):
+> :warning: This Tap is deprecated. Use the 
+> [`buildkite/buildkite`](https://github.com/buildkite/homebrew-buildkite) Tap
+> instead:
 
 ```bash
-$ brew install buildkite/cli/bk
+$ brew install buildkite/buildkite/cli
 $ bk --help
 ```
