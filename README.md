@@ -5,6 +5,6 @@
 > instead:
 
 ```bash
-$ brew install buildkite/buildkite/cli
+$ brew install buildkite/buildkite/buildkite-cli
 $ bk --help
 ```
